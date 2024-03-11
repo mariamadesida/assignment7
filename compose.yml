@@ -19,5 +19,5 @@ services:
     command: yes database
 
   users:
-    image: your-custom-image
-    command: while true; do echo users; done
+    image: assignment7
+    command: "sh -c 'while true; do echo users; sleep 1; done' "
